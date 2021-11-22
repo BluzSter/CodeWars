@@ -16,5 +16,5 @@ class SmallEnough {
         assertEquals(true, smallEnough(intArrayOf(80, 117, 115, 104, 45, 85, 112, 115), 120))
     }
 
-    fun smallEnough(array : IntArray, limit : Int) : Boolean = array.all { it <= limit}
+    private fun smallEnough(array : IntArray, limit : Int) : Boolean = array.all { it <= limit}
 }
